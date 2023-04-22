@@ -5,9 +5,6 @@ let arr = [
     { id: 1, name: "john", age: "18", profession: "developer" },
     { id: 2, name: "jack", age: "20", profession: "developer" },
     { id: 3, name: "karen", age: "19", profession: "admin" },
-    { id: 1, name: "john", age: "18", profession: "developer" },
-    { id: 2, name: "jack", age: "20", profession: "developer" },
-    { id: 3, name: "karen", age: "19", profession: "admin" },
   ];
 
 //first output box
@@ -57,14 +54,6 @@ function printArray(arr) {
 
   cardPrint.innerHTML = htmlCode;
 }
-
-//print the array by for loop
-// function printArray(arr) {
-//   firstOut.innerHTML = "";
-//   for (let i = 0; i < arr.length; i++) {
-//     firstOut.innerHTML += arr[i].id + ". " + " Name:" + arr[i].name + " Profession:" + arr[i].profession + " Age:" + arr[i].age +"<br>";
-//   }
-// }
 
 //filter data function
 var reqProf = document.getElementById("filterProfession");

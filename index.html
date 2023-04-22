@@ -35,22 +35,21 @@
     <h3>Add a new User</h3>
 
     <form>
-        <table>
-            <tr>
-                <td><label for="name"><b>Enter Name</b></label></td>
-                <td><label for="profession"><b>Enter Profession</b></label></td>
-                <td><label for="age"><b>Enter Age</b></label></td>
-            </tr>
-            <tr>
-                <td><input type="text" placeholder="Enter Name" value="" id="name" onfocus="this.value=''" required></td>
-
-                <td><input type="text" placeholder="Enter Profession" value="" id="profession" required></td>
-                
-                <td><input type="number" placeholder="Enter Age" value="" id="age" required></td>
-            </tr>
-        </table> 
-
-        <br>
+        <div class="contain">
+            <div class="cc">
+                <label for="name"><b>Enter Name</b></label>
+                <input type="text" placeholder="Enter Name" value="" id="name" onfocus="this.value=''" required>
+            </div>
+            <div class="cc">
+                <label for="profession"><b>Enter Profession</b></label>
+                <input type="text" placeholder="Enter Profession" value="" id="profession" required>
+            </div>
+            <div class="cc">
+                <label for="age"><b>Enter Age</b></label>
+                <input type="number" placeholder="Enter Age" value="" id="age" required>
+            </div>
+        </div>
+        
         <button onclick="addData()">Add User</button>
         <p id="secondOut"></p>
     </form>

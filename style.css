@@ -72,3 +72,23 @@ h3, .dropdown, button {
 .card > .prof {
     width: 40%;
 }
+
+.contain {
+    display: flex;
+    margin: 1rem 0;
+}
+.cc {
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 720px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2px;
+    }
+    .all-cards {
+        width: fit-content;
+    }
+}
